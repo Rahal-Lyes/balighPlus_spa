@@ -182,6 +182,7 @@ function openLightbox(report, index) {
 
 onMounted(() => {
   loadReports();
+
 });
 </script>
 

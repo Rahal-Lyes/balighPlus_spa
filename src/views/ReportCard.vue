@@ -108,6 +108,7 @@ const props = defineProps({
   report: { type: Object, required: true },
   voted:  { type: Boolean, default: false },
 })
+console.log('props repors',props.target);
 const emit = defineEmits(['vote', 'open-map', 'open-lb'])
 
 const router = useRouter()
