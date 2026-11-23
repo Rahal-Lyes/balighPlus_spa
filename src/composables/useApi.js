@@ -1,8 +1,8 @@
 // composables/useApi.js
 import axios from "axios";
 
-export const backendURL = "http://localhost:8000";
-// export const backendURL = "https://blg-fast.onrender.com"
+// export const backendURL = "http://localhost:8000";
+export const backendURL = "https://blg-fast.onrender.com"
 
 const APIConfig = {
   baseURL: backendURL + "/api",
